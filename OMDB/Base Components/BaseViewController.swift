@@ -50,7 +50,6 @@ class BaseViewController<T: BaseViewModel>: UIViewController {
         
         let navBar = self.navigationController?.navigationBar
         
-        navBar?.prefersLargeTitles = true
         navBar?.tintColor = .white
         navBar?.isTranslucent = true
         navBar?.standardAppearance = nav
